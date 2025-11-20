@@ -30,7 +30,7 @@ class BunnyConfig(SimulationConfig):
                 [0.0, 0.0, 0.0, 1.0]
             ],
             material=tet_material,
-            pinned_vertices = lambda v: v[:,1] > 185.0
+            pinned_vertices = lambda v: v[:,1] > 0.6
         )
         
         # Initialize simulation configuration
