@@ -135,8 +135,8 @@ For iter = 1 to num_iterations:
             q_i = argmin_{q_i} E_i(q)
             
 Integrate:
-    v^{t+1} = (q^{t+1} - q^t) / dt
     q^{t+1} = q
+    v^{t+1} = (q^{t+1} - q^t) / dt
 ```
 
 This above loop is what we'll implement in this assignment.
